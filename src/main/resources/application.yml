@@ -19,9 +19,9 @@ spring:
         # 数据源-1，名称为 primary
         primary:
           username: root
-          password: febs_shiro_jwt
+          password: duanmeas321
           driver-class-name: com.mysql.cj.jdbc.Driver
-          url: jdbc:mysql://127.0.0.1:3306/febs_shiro_jwt?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Shanghai
+          url: jdbc:mysql://127.0.0.1:3306/hrc-mysql?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Shanghai
         # 数据源-2，名称为 test
 #        test:
 #          username: root
@@ -43,7 +43,7 @@ spring:
   redis:
     host: 127.0.0.1
     port: 6379
-    password:
+    password: duanmeas321
     jedis:
       pool:
         min-idle: 8
@@ -89,9 +89,9 @@ febs:
     title: FEBS VUE API
     description: FEBS VUE API Document.
     version: 2.0
-    author: MrBird
-    url: https://mrbird.cc
-    email: 852252810@qq.com
+    author: hrc
+    url: https://www.hrc.com
+    email: 1092129581@qq.com
     license: Apache 2.0
     licenseUrl: https://www.apache.org/licenses/LICENSE-2.0.html
 
